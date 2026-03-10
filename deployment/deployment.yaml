@@ -17,9 +17,9 @@ spec:
     spec:
       containers:
       - name: titanic
-        image: linogaliana/application:latest
+        image: linogaliana/application:v0.0.1
         ports:
-        - containerPort: 8000
+        - containerPort: 5000
         env:
         - name: JETON_API
           valueFrom:
